@@ -11,4 +11,10 @@ describe('reverseString', function() {
   it('length of reversed string is equal to passed in string', function() {
   	expect(reverseString('yes').length).to.equal(3);
   });
+  it('does not accept numbers', function() {
+  	expect(reverseString(65)).to.equal('');
+  });
+  it('does not accept booleans', function() {
+  	expect(reverseString(true)).to.equal('');
+  });
 });
