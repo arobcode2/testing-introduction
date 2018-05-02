@@ -9,6 +9,6 @@ describe('reverseString', function() {
   	expect(reverseString('')).to.equal('');
   });
   it('length of reversed string is equal to passed in string', function() {
-  	expect(reverseString('yes')).to.equal(3);
+  	expect(reverseString('yes'.length)).to.equal(3);
   });
 });
