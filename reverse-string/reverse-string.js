@@ -14,4 +14,4 @@ var reverseString = function(str) {
 	return revStr;
 };
 
-//console.log(reverseString('blow'));
+console.log(reverseString('blow'));
